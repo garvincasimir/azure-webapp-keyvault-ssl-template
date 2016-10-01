@@ -118,7 +118,7 @@
        "parameters": { 
           "existingWebAppName":{"value": "[parameters('webAppName')]"},
           "hostname":{"value": "[parameters('hostname')]"},
-          "webAppLocation":{"value": "[resourceGroup().location]"},
+          "existingAppLocation":{"value": "[resourceGroup().location]"},
           "certificateThumprint":{"value": "[reference(resourceId('Microsoft.Web/certificates', parameters('certificateName'))).Thumbprint]"}
        } 
      } 

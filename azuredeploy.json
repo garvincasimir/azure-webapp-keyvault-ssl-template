@@ -111,7 +111,7 @@
      "properties": { 
        "mode": "Incremental", 
        "templateLink": {
-          "uri": "[concat(variables('linkedTemplateBase'),'webapp-ssl-bind.json')]",
+          "uri": "[concat(variables('linkedTemplateBase'),'/webapp-ssl-bind.json')]",
           "contentVersion": "1.0.0.0"
        }, 
 
